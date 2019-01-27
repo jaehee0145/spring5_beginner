@@ -10,7 +10,7 @@ public class Member {
     private String name;
     private LocalDateTime registerDateTime;
 
-    public Member(String emali, String password, String name, LocalDateTime regDateTime) {
+    public Member(String email, String password, String name, LocalDateTime regDateTime) {
         this.email = email;
         this.password = password;
         this.name = name;
